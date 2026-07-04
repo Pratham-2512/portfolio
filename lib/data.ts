@@ -2,7 +2,7 @@ export const profile = {
   name: "Pratham Bhatia",
   title: "AI Application Engineer",
   tagline:
-    "Building production-ready AI applications, enterprise software, and SaaS products that automate real business workflows.",
+    "Building AI-powered enterprise software, SaaS products, and intelligent business automation.",
   bio: "I am an AI Application Engineer focused on building products, not just code. My work combines modern web technologies with Generative AI to solve real business problems — from intelligent resume screening systems to enterprise workflow automation used in live retail operations. I care about shipping: clean architecture, measurable impact, and products that hold up in production.",
   email: "prathambhatia2512@gmail.com",
   github: "https://github.com/Pratham-2512",
@@ -20,7 +20,7 @@ export const heroStats = [
 
 export const valueProps = [
   {
-    title: "AI That Ships",
+    title: "Production AI",
     description:
       "Not notebook demos — LLM features integrated into real products: resume screening, approval workflows, and prompt-driven analytics used by actual business teams.",
   },
@@ -95,6 +95,7 @@ export const enterpriseSolutions = [
       "Business Reporting",
       "Operational Analytics",
     ],
+    stack: ["React", "TypeScript", "Supabase", "PostgreSQL"],
   },
   {
     name: "SCM Automation",
@@ -111,6 +112,7 @@ export const enterpriseSolutions = [
       "Reporting",
       "Analytics",
     ],
+    stack: ["React", "TypeScript", "Supabase", "PostgreSQL"],
   },
   {
     name: "Marketing Automation",
@@ -127,6 +129,7 @@ export const enterpriseSolutions = [
       "Dashboard Analytics",
       "Workflow Automation",
     ],
+    stack: ["React", "TypeScript", "Supabase", "PostgreSQL"],
   },
   {
     name: "SRM Automation",
@@ -143,6 +146,7 @@ export const enterpriseSolutions = [
       "Business Reporting",
       "AI-enabled Automation",
     ],
+    stack: ["React", "TypeScript", "Supabase", "PostgreSQL"],
   },
 ];
 
@@ -166,15 +170,15 @@ export const featuredProjects = [
     problem:
       "Recruiters manually screen hundreds of resumes per role — slow, inconsistent, and biased toward exact keyword matches.",
     solution:
-      "An AI-powered screening system that parses, ranks, and matches candidate resumes against job descriptions using LLM-based semantic search.",
-    architecture: "Next.js → API Routes → OpenAI → Supabase (Postgres + Vector)",
+      "A screening system that parses, ranks, and matches candidate resumes against job descriptions using AI-powered matching.",
+    architecture: "Next.js → API Routes → OpenAI → Supabase (PostgreSQL)",
     challenges: ["Prompt consistency", "Structured outputs", "Performance"],
     impact: [
       "Cuts manual screening from minutes per resume to seconds",
-      "Semantic matching instead of brittle keyword filters",
+      "AI matching instead of brittle keyword filters",
       "Recruiter-facing dashboard with ranked candidate pipeline",
     ],
-    tags: ["Next.js", "OpenAI", "Supabase", "LLM", "Vector Search"],
+    tags: ["Next.js", "OpenAI", "Supabase", "LLM", "AI Matching"],
     github: "https://github.com/Pratham-2512/AI_RESUME_TRACKER",
     githubSecondary: null,
     note: null,

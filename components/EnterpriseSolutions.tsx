@@ -1,8 +1,4 @@
-import {
-  enterpriseSolutions,
-  enterpriseStack,
-  confidentialityNote,
-} from "@/lib/data";
+import { enterpriseSolutions, confidentialityNote } from "@/lib/data";
 import SectionHeading from "./SectionHeading";
 import Reveal from "./Reveal";
 import { Building2, Lock, ShieldCheck } from "lucide-react";
@@ -78,30 +74,26 @@ export default function EnterpriseSolutions() {
                   </span>
                 ))}
               </div>
+
+              <div className="mt-4 flex flex-wrap items-center gap-2 border-t border-white/5 pt-4">
+                <span className="text-[10px] font-semibold uppercase tracking-wider text-zinc-500 mr-1">
+                  Tech Stack
+                </span>
+                {solution.stack.map((tech) => (
+                  <span
+                    key={tech}
+                    className="text-[11px] rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-zinc-300"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </div>
           </Reveal>
         ))}
       </div>
 
       <Reveal className="mt-8">
-        <div className="glass rounded-2xl px-6 py-5">
-          <div className="flex flex-wrap items-center gap-2.5">
-            <span className="text-xs font-semibold uppercase tracking-wider text-indigo-300/80 mr-1">
-              Shared Tech Stack
-            </span>
-            {enterpriseStack.map((tech) => (
-              <span
-                key={tech}
-                className="text-[11px] rounded-full border border-white/10 bg-white/5 px-2.5 py-1 text-zinc-300"
-              >
-                {tech}
-              </span>
-            ))}
-          </div>
-        </div>
-      </Reveal>
-
-      <Reveal className="mt-4">
         <div className="glass rounded-2xl px-6 py-5 flex gap-3.5 items-start">
           <ShieldCheck size={20} className="text-indigo-300 shrink-0 mt-0.5" />
           <p className="text-sm text-zinc-400 leading-relaxed">

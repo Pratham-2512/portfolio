@@ -2,7 +2,7 @@ import { profile } from "@/lib/data";
 import { getGithubData } from "@/lib/github";
 import SectionHeading from "./SectionHeading";
 import Reveal from "./Reveal";
-import { FolderGit2, CalendarDays, Clock } from "lucide-react";
+import { FolderGit2, Clock } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 
 const barColors = [
@@ -25,30 +25,15 @@ export default async function GithubStats() {
         subtitle="Consistent, real engineering work — not just a resume line."
       />
 
-      <div className="grid sm:grid-cols-2 gap-5 mb-8">
-        <Reveal>
-          <div className="glass glass-hover rounded-2xl p-6 text-center">
-            <FolderGit2 className="mx-auto text-indigo-300" size={22} />
-            <p className="mt-3 text-2xl font-semibold text-zinc-50">
-              {data.publicRepos}
-            </p>
-            <p className="text-xs text-zinc-400 mt-1">Public Repositories</p>
-          </div>
-        </Reveal>
-        <Reveal delay={0.06}>
-          <div className="glass glass-hover rounded-2xl p-6 text-center">
-            <CalendarDays className="mx-auto text-indigo-300" size={22} />
-            <p className="mt-3 text-2xl font-semibold text-zinc-50">2024</p>
-            <p className="text-xs text-zinc-400 mt-1">Coding Since</p>
-          </div>
-        </Reveal>
-      </div>
-
       <Reveal className="mb-8">
         <div className="glass rounded-3xl p-6 sm:p-8">
           <div className="flex items-center justify-between mb-6">
-            <div className="flex items-center gap-2.5">
+            <div className="flex items-center gap-2.5 flex-wrap">
               <h3 className="text-zinc-50 font-semibold">Top Languages</h3>
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-indigo-400/20 bg-indigo-400/10 px-2.5 py-0.5 text-[10px] font-medium text-indigo-200">
+                <FolderGit2 size={11} />
+                {data.publicRepos} Public Repositories
+              </span>
               {data.live && (
                 <span className="inline-flex items-center gap-1.5 rounded-full border border-emerald-400/20 bg-emerald-400/10 px-2.5 py-0.5 text-[10px] font-medium text-emerald-300">
                   <span className="h-1.5 w-1.5 rounded-full bg-emerald-400" />
