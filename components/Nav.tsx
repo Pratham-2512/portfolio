@@ -79,7 +79,7 @@ export default function Nav() {
           </button>
         </div>
         {open && (
-          <div className="glass md:hidden mt-2 rounded-2xl px-5 py-4 flex flex-col gap-4 text-zinc-300">
+          <div className="md:hidden mt-2 rounded-2xl px-5 py-4 flex flex-col gap-4 text-zinc-200 bg-[#0b0c14]/[0.97] border border-white/10 shadow-2xl shadow-black/60 backdrop-blur-xl">
             {links.map((l) => (
               <a
                 key={l.href}
