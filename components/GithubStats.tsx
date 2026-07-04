@@ -27,7 +27,7 @@ export default async function GithubStats() {
 
       <Reveal className="mb-8">
         <div className="glass rounded-3xl p-6 sm:p-8">
-          <div className="flex items-center justify-between mb-6">
+          <div className="flex flex-wrap items-center justify-between gap-3 mb-6">
             <div className="flex items-center gap-2.5 flex-wrap">
               <h3 className="text-zinc-50 font-semibold">Top Languages</h3>
               <span className="inline-flex items-center gap-1.5 rounded-full border border-indigo-400/20 bg-indigo-400/10 px-2.5 py-0.5 text-[10px] font-medium text-indigo-200">

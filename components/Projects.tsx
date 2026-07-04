@@ -23,7 +23,7 @@ export default function Projects() {
                   : ""
               }`}
             >
-              <div className="flex items-start justify-between gap-4">
+              <div className="flex flex-wrap items-start justify-between gap-4">
                 <div>
                   <p className="text-[11px] uppercase tracking-wider text-indigo-300/70 mb-1.5">
                     {project.role}
@@ -62,9 +62,9 @@ export default function Projects() {
                 <p className="text-xs font-semibold uppercase tracking-wider text-indigo-300/80">
                   Architecture
                 </p>
-                <p className="mt-2 inline-flex items-center gap-2 rounded-xl border border-white/8 bg-white/4 px-4 py-2.5 font-mono text-[13px] text-zinc-300">
-                  <GitBranch size={14} className="text-indigo-300 shrink-0" />
-                  {project.architecture}
+                <p className="mt-2 inline-flex max-w-full items-start gap-2 rounded-xl border border-white/8 bg-white/4 px-4 py-2.5 font-mono text-[13px] text-zinc-300 [overflow-wrap:anywhere]">
+                  <GitBranch size={14} className="text-indigo-300 shrink-0 mt-0.5" />
+                  <span>{project.architecture}</span>
                 </p>
               </div>
 

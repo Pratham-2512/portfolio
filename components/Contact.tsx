@@ -16,9 +16,10 @@ export default function Contact() {
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href={`mailto:${profile.email}`}
-            className="inline-flex items-center gap-2 rounded-full bg-zinc-50 text-zinc-900 px-6 py-3 text-sm font-medium hover:bg-white transition-colors"
+            className="inline-flex max-w-full items-center gap-2 rounded-full bg-zinc-50 text-zinc-900 px-4 sm:px-6 py-3 text-[13px] sm:text-sm font-medium hover:bg-white transition-colors"
           >
-            <Mail size={16} /> {profile.email}
+            <Mail size={16} className="shrink-0" />
+            <span className="break-all">{profile.email}</span>
           </a>
         </div>
         <div className="flex gap-4">
