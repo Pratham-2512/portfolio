@@ -50,7 +50,7 @@ export default function Nav() {
         style={{ width: `${progress}%` }}
       />
       <nav className="mx-auto max-w-5xl mt-3 px-4">
-        <div className="glass flex items-center justify-between rounded-2xl px-5 py-3">
+        <div className="flex items-center justify-between rounded-2xl px-5 py-3 bg-[#0b0c14]/[0.92] border border-white/10 shadow-lg shadow-black/40 backdrop-blur-xl">
           <a href="#top" className="font-semibold tracking-wide text-zinc-100">
             Pratham <span className="gradient-text">Bhatia</span>
           </a>
