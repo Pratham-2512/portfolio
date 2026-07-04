@@ -6,7 +6,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="relative max-w-3xl mx-auto px-6 py-24">
+    <section id="contact" className="relative max-w-3xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading
         eyebrow="Get In Touch"
         title="Let's Build Something"

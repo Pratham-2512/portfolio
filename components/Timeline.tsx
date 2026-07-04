@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 
 export default function Timeline() {
   return (
-    <section className="relative max-w-3xl mx-auto px-6 py-24">
+    <section className="relative max-w-3xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading eyebrow="Journey" title="Growth Timeline" />
       <div className="relative pl-8">
         <div className="absolute left-[7px] top-2 bottom-2 w-px bg-gradient-to-b from-indigo-400/60 via-fuchsia-400/40 to-cyan-400/60" />

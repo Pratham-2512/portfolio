@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default function Projects() {
   return (
-    <section id="projects" className="relative max-w-6xl mx-auto px-6 py-24">
+    <section id="projects" className="relative max-w-6xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading
         eyebrow="Work"
         title="Featured Case Studies"
@@ -146,7 +146,7 @@ export default function Projects() {
         ))}
       </div>
 
-      <div className="mt-20">
+      <div className="mt-12 sm:mt-20">
         <Reveal className="mb-8 text-center">
           <h3 className="text-2xl font-semibold text-zinc-50">
             Data & Foundations

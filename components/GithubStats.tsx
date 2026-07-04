@@ -18,7 +18,7 @@ export default async function GithubStats() {
   const data = await getGithubData();
 
   return (
-    <section id="github" className="relative max-w-5xl mx-auto px-6 py-24">
+    <section id="github" className="relative max-w-5xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading
         eyebrow="Activity"
         title="GitHub"

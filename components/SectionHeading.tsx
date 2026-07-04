@@ -10,7 +10,7 @@ export default function SectionHeading({
   subtitle?: string;
 }) {
   return (
-    <Reveal className="mb-12 text-center">
+    <Reveal className="mb-8 sm:mb-12 text-center">
       <p className="text-sm font-medium tracking-widest text-indigo-300/80 uppercase">
         {eyebrow}
       </p>

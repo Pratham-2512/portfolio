@@ -5,7 +5,7 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function Achievements() {
   return (
-    <section className="relative max-w-5xl mx-auto px-6 py-24">
+    <section className="relative max-w-5xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading eyebrow="Highlights" title="Achievements" />
       <div className="grid sm:grid-cols-2 gap-4">
         {achievements.map((item, i) => (

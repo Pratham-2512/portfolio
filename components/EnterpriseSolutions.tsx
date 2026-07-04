@@ -5,7 +5,7 @@ import { Building2, Lock, ShieldCheck } from "lucide-react";
 
 export default function EnterpriseSolutions() {
   return (
-    <section id="enterprise" className="relative max-w-6xl mx-auto px-6 py-24">
+    <section id="enterprise" className="relative max-w-6xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading
         eyebrow="Enterprise"
         title="Enterprise Solutions"

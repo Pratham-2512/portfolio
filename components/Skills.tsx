@@ -4,7 +4,7 @@ import Reveal from "./Reveal";
 
 export default function Skills() {
   return (
-    <section id="skills" className="relative max-w-5xl mx-auto px-6 py-24">
+    <section id="skills" className="relative max-w-5xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading
         eyebrow="Skills"
         title="Technical Toolkit"

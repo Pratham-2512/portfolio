@@ -5,7 +5,7 @@ import { Target, Compass } from "lucide-react";
 
 export default function FocusPrinciples() {
   return (
-    <section className="relative max-w-5xl mx-auto px-6 py-24">
+    <section className="relative max-w-5xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading
         eyebrow="Direction"
         title="Focus & Principles"

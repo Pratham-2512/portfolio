@@ -7,7 +7,7 @@ const icons = [Sparkles, Building2, Layers];
 
 export default function ValueProps() {
   return (
-    <section className="relative max-w-5xl mx-auto px-6 py-24">
+    <section className="relative max-w-5xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading
         eyebrow="Why Me"
         title="What I Bring to Your Team"

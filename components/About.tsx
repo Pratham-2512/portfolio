@@ -5,7 +5,7 @@ import { GraduationCap, MapPin } from "lucide-react";
 
 export default function About() {
   return (
-    <section id="about" className="relative max-w-4xl mx-auto px-6 py-24">
+    <section id="about" className="relative max-w-4xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading eyebrow="About" title="Who I Am" />
       <Reveal className="glass rounded-3xl p-8 sm:p-10 text-center sm:text-left">
         <p className="text-zinc-300 text-lg leading-relaxed">{profile.bio}</p>

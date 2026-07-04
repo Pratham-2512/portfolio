@@ -5,7 +5,7 @@ import { Briefcase, CheckCircle2 } from "lucide-react";
 
 export default function Experience() {
   return (
-    <section id="experience" className="relative max-w-4xl mx-auto px-6 py-24">
+    <section id="experience" className="relative max-w-4xl mx-auto px-6 py-12 sm:py-24">
       <SectionHeading eyebrow="Career" title="Experience" />
       <div className="space-y-8">
         {experience.map((job) => (
